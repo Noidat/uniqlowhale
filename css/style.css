@@ -20,7 +20,7 @@ body {
   color: gray;
   font-weight: 300;
   font-size: 1rem;
-  font-family: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
+  font-family: 'Questrial', sans-serif; }
 
 ::-moz-selection {
   background: #000;
@@ -165,8 +165,8 @@ h1, h2, h3, h4, h5, h6 {
   border-top: 1px solid #ced4da !important; }
 
 .site-footer {
-  padding-top: 17rem;
-  padding-bottom: 4rem;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
   background: #333333; }
   .site-footer p {
     color: #8c8c8c; }
@@ -234,7 +234,7 @@ h1, h2, h3, h4, h5, h6 {
 .site-navbar {
   margin-bottom: 0px;
   width: 100%;
-  padding: 15px 0; }
+  padding: 15px 0 7px; }
   .site-navbar .site-logo {
     font-weight: 200;
     line-height: 0;
