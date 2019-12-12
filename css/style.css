@@ -89,8 +89,8 @@ h1, h2, h3, h4, h5, h6 {
     background: rgba(0, 0, 0, 0.2); }
 
 .btn {
-  border-width: 2px;
-  border-radius: 30px; }
+  border-width: 5px;
+  border-radius: 0px; }
   .btn:active, .btn:focus {
     outline: none;
     -webkit-box-shadow: none !important;
