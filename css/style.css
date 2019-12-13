@@ -101,17 +101,17 @@ h1, h2, h3, h4, h5, h6 {
   .btn.btn-primary {
     color: #fff; }
     .btn.btn-primary:hover, .btn.btn-primary:focus, .btn.btn-primary:active {
-      border-color: #378694 !important;
-      color: #378694 !important;
+      border-color: #FF8D23 !important;
+      color: #FF8D23 !important;
       background-color: transparent !important; }
   .btn.btn-outline-primary {
-    color: #378694;
-    border-color: #378694 !important;
+    color: #FF8D23;
+    border-color: #FF8D23 !important;
     background-color: transparent !important; }
     .btn.btn-outline-primary:hover, .btn.btn-outline-primary:focus, .btn.btn-outline-primary:active {
-      border-color: #378694 !important;
+      border-color: #FF8D23 !important;
       color: #fff !important;
-      background-color: #378694 !important; }
+      background-color: #FF8D23 !important; }
   .btn.btn-md {
     padding: 14px 30px; }
 
