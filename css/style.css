@@ -874,3 +874,22 @@ h1, h2, h3, h4, h5, h6 {
     /* Firefox 18- */
     color: #ccc;
     font-style: italic; }
+
+
+
+
+
+
+  @media (max-width: 768px) {
+      .site-blocks-cover, .site-blocks-cover > .container > .row {
+          min-height: initial;
+          height: initial;
+      }
+  }
+
+  @media (min-width: 768px) {
+    .site-section {
+        padding: 2em 0;
+    }
+  }
+

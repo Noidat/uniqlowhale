@@ -148,9 +148,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div> <!-- END .site-navbar-wrap -->
     
     <div class="site-blocks-cover" id="home-section">
-        <video width="100%" controls="autoplay loop">
+        <video id="videoHome" width="100%" controls autoplay loop>
           <source src="images/video.mp4" type="video/mp4">
         </video>
+
+        <SCRIPT>
+          var vid = document.getElementById("videoHome");
+          setTimeout(function () { vid.play(); } , 3000);
+        </SCRIPT>
 
       <div class="container">
         <div class="row">
@@ -246,7 +251,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="container">
         <div class="row">
           <div class="col-lg-6 mb-5">
-            <img src="images/glint_about_1.jpg" alt="Free Website Template by Free-Template.co" class="img-fluid">
+            <img src="images/unicloejemplo.gif" alt="Recuperamos el alma de los oceanos" class="img-fluid">
           </div>
           <div class="col-lg-6 mr-auto section-title">
             <h2 class="title text-primary mb-3">Limpiamos el Alma del Océano</h2>
@@ -338,15 +343,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
               <span class="icon-search2"></span>
               <img class="img-fluid" src="images/sq_img_12.jpg" alt="sudadera deportiva hombre naranja">
             </a>
-            <div class="row">
-            <div class="mt-5 ml-6 ">
-          <p><a href="https://https://www.uniqlo.com/es/es/home/" target="_blank" class="btn btn-outline-primary btn-md ">COMPRAR</a></p>
-          </div>
-          </div>
+            
         </div>
         
         </div>
           
+        <div class="row">
+            <div class="mx-auto ">
+          <p><a href="https://https://www.uniqlo.com/es/es/home/" target="_blank" class="btn btn-outline-primary btn-md ">COMPRAR</a></p>
+          </div>
+          </div>
+
       </div>
     </div> <!-- END .site-section -->
 
